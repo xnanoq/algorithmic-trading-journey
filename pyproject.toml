@@ -7,7 +7,10 @@ authors = [
     { name = "David Parada", email = "dfdo.parada@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandas>=3.1.1",
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 algorithmic-trading-journey = "algorithmic_trading_journey:main"
