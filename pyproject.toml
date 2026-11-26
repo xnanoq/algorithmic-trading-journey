@@ -8,7 +8,11 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "nbformat>=5.11.1",
     "pandas>=3.1.1",
+    "plotly>=7.2.0",
+    "pyarrow>=26.0.1",
+    "python-binance>=1.0.37",
     "requests>=2.34.2",
 ]
 
